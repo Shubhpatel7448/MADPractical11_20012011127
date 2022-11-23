@@ -7,7 +7,7 @@ import android.content.Context.ALARM_SERVICE
 import android.content.Intent
 import android.os.Parcel
 import android.os.Parcelable
-import com.example.madpractical11_20012021062.AlarmBroadcastReceiver
+import com.example.madpractical11_20012011127.AlarmBroadcastReceiver
 import java.io.Serializable
 import java.text.DateFormat
 import java.text.SimpleDateFormat

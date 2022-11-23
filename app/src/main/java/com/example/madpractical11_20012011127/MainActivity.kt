@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
             note.modifiedTime = Note.getCurrentDateTime()
             if (noteMode == NoteMode.add) {
                 if (!createNote(note))
+
                     Toast.makeText(this, "Enter Valid Note", Toast.LENGTH_SHORT).show()
             } else if (noteMode == NoteMode.edit) {
                 Log.i(TAG, "listener: Note:$note")

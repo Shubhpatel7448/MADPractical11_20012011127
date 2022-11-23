@@ -82,6 +82,7 @@
                     tools:text="Reminder Date and time" />
 
             </LinearLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

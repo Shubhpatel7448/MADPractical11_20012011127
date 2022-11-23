@@ -35,6 +35,7 @@ class AlarmBroadcastReceiver : BroadcastReceiver() {
             )
         }
     }
+
     private fun notificationDialog(context: Context, cls: Class<*>, title: String, descr: String,note: Note) {
         val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         val NOTIFICATION_CHANNEL_ID = "hitensadani"

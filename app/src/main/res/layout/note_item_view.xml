@@ -101,5 +101,6 @@
                         app:tint="#FF2244" />
             </LinearLayout>
         </LinearLayout>
+
     </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

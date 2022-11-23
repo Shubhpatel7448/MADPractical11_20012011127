@@ -27,6 +27,7 @@ class DatabaseHelper(context: Context?) :
         // Create tables again
         onCreate(db)
     }
+
     fun insertNote(note: Note): Long {
         // get writable database as we want to write data
         val db = this.writableDatabase

@@ -47,6 +47,7 @@ class Note(var title:String, var subTitle:String, var Description:String, var mo
         isReminder = newValue.isReminder
         remindertime = newValue.remindertime
     }
+
     fun getReminderText() :String
     {
         return "Reminder: "+(SimpleDateFormat("MMM, dd yyyy hh:mm a") as DateFormat).format(

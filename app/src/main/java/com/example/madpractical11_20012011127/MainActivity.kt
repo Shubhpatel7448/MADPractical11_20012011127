@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, "Enter Valid Note", Toast.LENGTH_SHORT).show()
             }
         }
+
     lateinit var db: DatabaseHelper
     private val notesList: ArrayList<Note> = ArrayList<Note>()
     lateinit var notesRecycleAdapter: NotesAdapter

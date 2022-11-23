@@ -12,6 +12,7 @@ class NotesData {
         const val COLUMN_NOTE_REMINDER_TIME = "note_set_reminder_time"
         const val COLUMN_TIMESTAMP = "note_modified_timestamp"
 
+
         // Create table SQL query
         val CREATE_TABLE = ("CREATE TABLE " + TABLE_NAME + "("
                 + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"

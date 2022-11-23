@@ -42,6 +42,7 @@
                     android:drawableTint="?attr/colorPrimary"
                     android:drawableEnd="@drawable/ic_baseline_event_note_24"
                     android:hint="Note Sub Title" />
+
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout

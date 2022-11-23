@@ -57,6 +57,7 @@ class NotesAdapter (private val context: Context, private val array:ArrayList<No
         }
     }
 
+
     override fun getItemCount(): Int {
         return array.size
     }

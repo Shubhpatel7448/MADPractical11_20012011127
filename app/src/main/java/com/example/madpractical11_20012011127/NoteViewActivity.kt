@@ -10,6 +10,7 @@ class NoteViewActivity : AppCompatActivity() {
     private lateinit var binding: ActivityNoteViewBinding
     private lateinit var note:Note
     override fun onCreate(savedInstanceState: Bundle?) {
+
         WindowCompat.setDecorFitsSystemWindows(window, false)
         super.onCreate(savedInstanceState)
         note = intent.getSerializableExtra("Object") as Note
